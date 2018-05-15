@@ -1,6 +1,6 @@
 .PHONY: docs
 init:
-	pip install pipenv --upgrade
+	pip install pipenv==11.8.0
 	pipenv install --dev --skip-lock
 test:
 	# This runs all of the tests, on both Python 2 and Python 3.
